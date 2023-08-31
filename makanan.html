@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  ul ul {
+    margin-left: 20px;
+  }
+</style>
+</head>
+<body>
+
+<ul>
+    <!-- Senin -->
+    <li>Senin
+       <ul>
+        <li>
+          Makanan
+          <ul>
+            <li>Lontong Sayur</li>
+            <li>Ikan Bakar</li>
+            <li>Sayur Sop</li>
+          </ul>
+        </li>
+        <li>
+          Minuman
+          <ul>
+            <li>Air Putih</li>
+          </ul>
+        </li>
+       </ul>
+    </li>
+
+    <!-- Selasa -->
+    <li>Selasa
+    <ul>
+        <li>
+          Makanan
+          <ul>
+            <li>bubur ayam</li>
+            <li>Nasi Padang</li>
+            <li>Bebek Goreng</li>
+          </ul>
+        </li>
+        <li>
+          Minuman
+          <ul>
+            <li>Teh Manis</li>
+            <li>Jus Apel</li>
+          </ul>
+        </li>
+    </ul>
+    </li>
+
+    <!-- Rabu -->
+    <li>Rabu
+    <ul>
+        <li>
+          Makanan
+          <ul>
+            <li>Gangan Belamak</li>
+            <li>orek tempe</li>
+            <li>Ayam Bakar</li>
+          </ul>
+        </li>
+        <li>
+          Minuman
+          <ul>
+            <li>Jus Jeruk</li>
+            <li>Teh Hijau</li>
+          </ul>
+        </li>
+    </ul>
+    </li>
+
+    <!-- Kamis -->
+    <li>Kamis
+    <ul>
+        <li>
+          Makanan
+          <ul>
+            <li>Sayur Lodeh</li>
+            <li>Tempe Bacem</li>
+            <li>Nasi Goreng</li>
+          </ul>
+        </li>
+        <li>
+          Minuman
+          <ul>
+            <li>Air Kelapa</li>
+            <li>Jus Mangga</li>
+          </ul>
+        </li>
+    </ul>
+    </li>
+
+    <!-- Jumat -->
+    <li>Jumat
+    <ul>
+        <li>
+          Makanan
+          <ul>
+            <li>Ayam saus mentega</li>
+            <li>Sop Iga</li>
+            <li>roti bakar</li>
+          </ul>
+        </li>
+        <li>
+          Minuman
+          <ul>
+            <li>Kopi</li>
+            <li>Jus Melon</li>
+          </ul>
+        </li>
+    </ul>
+    </li>
+
+    <!-- Sabtu -->
+    <li>Sabtu
+    <ul>
+        <li>
+          Makanan
+          <ul>
+            <li>Sop Daging</li>
+            <li>Nasi Kuning</li>
+            <li>Roti Panggang</li>
+          </ul>
+        </li>
+        <li>
+          Minuman
+          <ul>
+            <li>Susu Coklat</li>
+            <li>Es Teh</li>
+          </ul>
+        </li>
+    </ul>
+    </li>
+
+    <!-- Minggu -->
+    <li>Minggu
+    <ul>
+        <li>
+          Makanan
+          <ul>
+            <li>Bubur Ayam</li>
+            <li>sate</li>
+            <li>Nasi Padang</li>
+          </ul>
+        </li>
+        <li>
+          Minuman
+          <ul>
+            <li>Jus Alpukat</li>
+            <li>Jus Jeruk Nipis</li>
+          </ul>
+        </li>
+    </ul>
+    </li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="7">Tabel Nutrisi</th>
+    </tr>
+    <tr>
+      <th>Hari</th>
+      <th>Jenis</th>
+      <th>Nama</th>
+      <th>Gambar</th>
+      <th>Jumlah Kalori (kal)</th>
+      <th>Jumlah Gula (g)</th>
+      <th>Jumlah Lemak (g)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Sisipkan data untuk Senin -->
+    <tr>
+      <td rowspan="4">Senin</td>
+      <td rowspan="3">Makanan</td>
+      <td>Lontong Sayur</td>
+      <td><img src="gambar/lontong-sayur.jpg" alt="Lontong Sayur" width="100"></td>
+      <td>300</td>
+      <td>10</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Ikan Bakar</td>
+      <td><img src="gambar/ikan-bakar.jpg" alt="Ikan Bakar" width="100"></td>
+      <td>250</td>
+      <td>8</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Sayur Sop</td>
+      <td><img src="gambar/sayur-sop.jpg" alt="Sayur Sop" width="100"></td>
+      <td>150</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>Minuman</td>
+      <td>Air Putih</td>
+      <td><img src="gambar/air-putih.jpg" alt="Air Putih" width="100"></td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <!-- Sisipkan data untuk Selasa -->
+    <tr>
+      <td rowspan="5">Selasa</td>
+      <td rowspan="3">Makanan</td>
+      <td>bubur ayam</td>
+      <td><img src="gambar/bubur-ayam.jpg" alt="Bubur Ayam" width="100"></td>
+      <td>200</td>
+      <td>6</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Nasi Padang</td>
+      <td><img src="gambar/nasi-padang.jpg" alt="Nasi Padang" width="100"></td>
+      <td>400</td>
+      <td>12</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Bebek Goreng</td>
+      <td><img src="gambar/bebek-goreng.jpg" alt="Bebek Goreng" width="100"></td>
+      <td>350</td>
+      <td>15</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Minuman</td>
+      <td>Teh Manis</td>
+      <td><img src="gambar/teh-manis.jpg" alt="Teh Manis" width="100"></td>
+      <td>100</td>
+      <td>25</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Jus Apel</td>
+      <td><img src="gambar/jus-apel.jpg" alt="Jus Apel" width="100"></td>
+      <td>150</td>
+      <td>35</td>
+      <td>0</td>
+    </tr>
+    <!-- Sisipkan data untuk Rabu -->
+    <tr>
+      <td rowspan="5">Rabu</td>
+      <td rowspan="3">Makanan</td>
+      <td>Gangan Belamak</td>
+      <td><img src="gambar/gangan-belamak.jpg" alt="Gangan Belamak" width="100"></td>
+      <td>280</td>
+      <td>9</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>orek tempe</td>
+      <td><img src="gambar/orek-tempe.jpg" alt="Orek Tempe" width="100"></td>
+      <td>180</td>
+      <td>7</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Ayam Bakar</td>
+      <td><img src="gambar/ayam-bakar.jpg" alt="Ayam Bakar" width="100"></td>
+      <td>270</td>
+      <td>11</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Minuman</td>
+      <td>Jus Jeruk</td>
+      <td><img src="gambar/jus-jeruk.jpg" alt="Jus Jeruk" width="100"></td>
+      <td>120</td>
+      <td>28</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Teh Hijau</td>
+      <td><img src="gambar/teh-hijau.jpg" alt="Teh Hijau" width="100"></td>
+      <td>80</td>
+      <td>20</td>
+      <td>0</td>
+    </tr>
+    <!-- Sisipkan data untuk Kamis -->
+    <tr>
+      <td rowspan="5">Kamis</td>
+      <td rowspan="3">Makanan</td>
+      <td>Sayur Lodeh</td>
+      <td><img src="gambar/sayur-lodeh.jpg" alt="Sayur Lodeh" width="100"></td>
+      <td>220</td>
+      <td>8</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>Tempe Bacem</td>
+      <td><img src="gambar/tempe-bacem.jpg" alt="Tempe Bacem" width="100"></td>
+      <td>160</td>
+      <td>6</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Nasi Goreng</td>
+      <td><img src="gambar/nasi-goreng.jpg" alt="Nasi Goreng" width="100"></td>
+      <td>320</td>
+      <td>10</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Minuman</td>
+      <td>Air Kelapa</td>
+      <td><img src="gambar/air-kelapa.jpg" alt="Air Kelapa" width="100"></td>
+      <td>50</td>
+      <td>10</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Jus Mangga</td>
+      <td><img src="gambar/jus-mangga.jpg" alt="Jus Mangga" width="100"></td>
+      <td>180</td>
+      <td>40</td>
+      <td>0</td>
+    </tr>
+    <!-- Sisipkan data untuk Jumat -->
+    <tr>
+      <td rowspan="5">Jumat</td>
+      <td rowspan="3">Makanan</td>
+      <td>Ayam saus mentega</td>
+      <td><img src="gambar/ayam-saus-mentega.jpg" alt="Ayam Saus Mentega" width="100"></td>
+      <td>290</td>
+      <td>12</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Sop Iga</td>
+      <td><img src="gambar/sop-iga.jpg" alt="Sop Iga" width="100"></td>
+      <td>230</td>
+      <td>9</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>roti bakar</td>
+      <td><img src="gambar/roti-bakar.jpg" alt="Roti Bakar" width="100"></td>
+      <td>120</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Minuman</td>
+      <td>Kopi</td>
+      <td><img src="gambar/kopi.jpg" alt="Kopi" width="100"></td>
+      <td>50</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Jus Melon</td>
+      <td><img src="gambar/jus-melon.jpg" alt="Jus Melon" width="100"></td>
+      <td>120</td>
+      <td>30</td>
+      <td>0</td>
+    </tr>
+    <!-- Sisipkan data untuk Sabtu -->
+    <tr>
+      <td rowspan="5">Sabtu</td>
+      <td rowspan="3">Makanan</td>
+      <td>Sop Daging</td>
+      <td><img src="gambar/sop-daging.jpg" alt="Sop Daging" width="100"></td>
+      <td>280</td>
+      <td>10</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>Nasi Kuning</td>
+      <td><img src="gambar/nasi-kuning.jpg" alt="Nasi Kuning" width="100"></td>
+      <td>260</td>
+      <td>8</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>Roti Panggang</td>
+      <td><img src="gambar/roti-panggang.jpg" alt="Roti Panggang" width="100"></td>
+      <td>150</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Minuman</td>
+      <td>Susu Coklat</td>
+      <td><img src="gambar/susu-coklat.jpg" alt="Susu Coklat" width="100"></td>
+      <td>200</td>
+      <td>20</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Es Teh</td>
+      <td><img src="gambar/es-teh.jpg" alt="Es Teh" width="100"></td>
+      <td>100</td>
+      <td>25</td>
+      <td>0</td>
+    </tr>
+    <!-- Sisipkan data untuk Minggu -->
+    <tr>
+      <td rowspan="5">Minggu</td>
+      <td rowspan="3">Makanan</td>
+      <td>Bubur Ayam</td>
+      <td><img src="gambar/bubur-ayam.jpg" alt="Bubur Ayam" width="100"></td>
+      <td>200</td>
+      <td>6</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>sate</td>
+      <td><img src="gambar/sate.jpg" alt="Sate" width="100"></td>
+      <td>180</td>
+      <td>7</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Nasi Padang</td>
+      <td><img src="gambar/nasi-padang.jpg" alt="Nasi Padang" width="100"></td>
+      <td>400</td>
