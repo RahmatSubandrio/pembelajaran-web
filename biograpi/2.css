@@ -1,0 +1,25 @@
+h1 {
+    color: #f10a89;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 10px dotted blueviolet; 
+    margin-bottom: 10px;
+
+    
+}
+ul{
+    border: 5px solid black;
+    text-align: left;
+    margin-bottom: 1ex;
+    background: rgb(34,193,195);
+background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(240,45,253,1) 100%);
+}
+.job-title {
+        color: #999999;
+        font-weight: bold;
+}
+
+
+  
+
+  
